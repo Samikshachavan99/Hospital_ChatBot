@@ -1,0 +1,164 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": [
+        "Hello! Welcome to CityCare Hospital.",
+        "Hi there! How can I assist you at CityCare Hospital?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "Thanks, bye"],
+      "responses": [
+        "Goodbye! Take care!",
+        "See you soon! Stay healthy!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Much appreciated"],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "hospital_hours",
+      "patterns": [
+        "What are your timings?",
+        "When is the hospital open?",
+        "Hospital hours",
+        "Opening time",
+        "When can I visit?"
+      ],
+      "responses": [
+        "Our hospital is open 24/7. For OPD, timings are 9 AM to 5 PM from Monday to Saturday."
+      ]
+    },
+    {
+      "tag": "book_appointment",
+      "patterns": [
+        "I want to book an appointment",
+        "Schedule an appointment",
+        "Can I see a doctor?",
+        "Book a visit"
+      ],
+      "responses": [
+        "Sure, please provide your name, contact number, and preferred department.",
+        "Absolutely! I can help you book an appointment. Which department do you want to visit?"
+      ]
+    },
+    {
+      "tag": "doctor_availability",
+      "patterns": [
+        "Is Dr. Smith available?",
+        "Can I meet Dr. Patel?",
+        "Doctor availability",
+        "When can I meet the cardiologist?"
+      ],
+      "responses": [
+        "Please provide the doctor's name and department to check availability.",
+        "Let me check that for you. Could you tell me the doctor's name or specialty?"
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "This is an emergency",
+        "Emergency help",
+        "Someone needs urgent care",
+        "Accident happened"
+      ],
+      "responses": [
+        "Please call our emergency number: 102 immediately or visit the emergency ward at our hospital.",
+        "For emergencies, dial 102 or visit the ER section at once."
+      ]
+    },
+    {
+      "tag": "departments",
+      "patterns": [
+        "What departments do you have?",
+        "Available departments",
+        "Specialties at the hospital",
+        "What kind of doctors are there?"
+      ],
+      "responses": [
+        "We have departments like Cardiology, Neurology, Orthopedics, Pediatrics, Dermatology, and more."
+      ]
+    },
+    {
+      "tag": "insurance",
+      "patterns": [
+        "Do you accept insurance?",
+        "Health insurance accepted?",
+        "Is insurance valid here?"
+      ],
+      "responses": [
+        "Yes, we accept most major health insurance plans. Please bring your insurance card during your visit."
+      ]
+    },
+    {
+      "tag": "covid_guidelines",
+      "patterns": [
+        "What are the COVID precautions?",
+        "COVID policy",
+        "Do I need a mask?",
+        "COVID-19 rules"
+      ],
+      "responses": [
+        "Masks are mandatory inside the hospital. We follow all COVID-19 safety protocols including sanitization and social distancing."
+      ]
+    },
+    {
+      "tag": "appointment_cancel",
+      "patterns": [
+        "I want to cancel my appointment",
+        "Cancel my booking",
+        "How to cancel appointment?"
+      ],
+      "responses": [
+        "You can cancel your appointment by calling us at 123-456-7890 or visiting the hospital reception.",
+        "To cancel an appointment, please provide your appointment ID or contact the hospital directly."
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "What payment methods do you accept?",
+        "How can I pay my bill?",
+        "Do you accept credit cards?"
+      ],
+      "responses": [
+        "We accept cash, credit/debit cards, and all major digital wallets.",
+        "You can pay your bills at our billing counter or online through our hospital portal."
+      ]
+    },
+    {
+      "tag": "lab_tests",
+      "patterns": [
+        "Do you have lab testing?",
+        "What lab tests are available?",
+        "Can I get a blood test?"
+      ],
+      "responses": [
+        "Yes, we offer a full range of lab tests including blood tests, urine analysis, and imaging.",
+        "Our lab is open 8 AM to 6 PM every day and offers tests like CBC, blood sugar, and more."
+      ]
+    },
+    {
+      "tag": "visitor_policy",
+      "patterns": [
+        "Can I visit a patient?",
+        "Visitor timings?",
+        "Are visitors allowed?"
+      ],
+      "responses": [
+        "Visitors are allowed from 9 AM to 7 PM daily with a valid ID card.",
+        "Please follow our visitor guidelines and maintain COVID safety protocols during your visit."
+      ]
+    }
+  ]
+}
